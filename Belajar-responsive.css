@@ -1,0 +1,23 @@
+.container {
+  width: 1080px;
+  margin: 0 auto;
+  display: block;
+}
+.box {
+  float: left;
+  padding: 50px;
+  background-color: green;
+  margin: 10px;
+  width:  250px;
+  height: 250px;
+}
+@media(max-width:700px)
+{
+  .container{
+    width: 100%;
+  }
+  .bok{
+    background-color: green;
+    width: 20%;
+  }
+}
